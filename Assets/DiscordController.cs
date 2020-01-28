@@ -47,7 +47,7 @@ public class DiscordController : MonoBehaviour
         activity = new Discord.Activity
         {
             State = "Online QA",
-            Details = "Private Bata",
+            Details = "Private Beta",
 
             Timestamps =
              {
@@ -57,10 +57,10 @@ public class DiscordController : MonoBehaviour
 
             Assets =
             {
-                LargeImage = "gta",
-                LargeText = "",
-                SmallImage = "vi",
-                SmallText = "",
+                LargeImage = "gtasmall",
+                LargeText = "GTA VI",
+                SmallImage = "online",
+                SmallText = "Online",
             },
 
             Party =
@@ -69,16 +69,16 @@ public class DiscordController : MonoBehaviour
 
                 Size =
                 {
-                    CurrentSize = 13,
-                    MaxSize = 116,
+                    CurrentSize = 15,
+                    MaxSize = 256,
                 },
             },
 
             Secrets =
             {
-                //Match = "foo matchSecret",
-                Join = "memes",
-                //Spectate = "foo spectateSecret",
+                //Match = "meme",
+                Join = "meme",
+                //Spectate = "meme",
             },
 
             Instance = true,
